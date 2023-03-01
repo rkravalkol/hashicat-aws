@@ -11,7 +11,11 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
+<<<<<<< HEAD
   Welcome to ${PREFIX}'s app. This is a test change.
+=======
+  Welcome to ${PREFIX}'s app. This is a test message.
+>>>>>>> f249e48bd0d256d50c28add0390a23ae2e246147
   <!-- END -->
 
   </div>
